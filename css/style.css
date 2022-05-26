@@ -7,9 +7,10 @@
 }
 
 .cabecalho {
+    background-image: url("../img/fundo2.jpg");
+    background-size: 100vw;
     width: 100%;
-    height: 10vw;
-    background-color: #44728f;
+    height: 12vw;
     left: 0;
     top: 0;
     position: relative;
@@ -53,9 +54,8 @@
 .area-de-texto {
     width: 100%;
     height: auto;
-    background-color: #aabdc9;
     right: 0;
-    top: 10vw;
+    top: 12vw;
     position: absolute;
 }
 
@@ -74,10 +74,6 @@
 .img {
     width: 100%;
     height: 100%;
-    border-radius: 1vw;
-    border-color: #44728f;
-    border-style: solid;
-    box-shadow: 1px 1px 4px #000000;
 }
 
 .intro {
@@ -90,10 +86,8 @@
     padding-left: 18vw;
     padding-right: 18vw;
     font-family: "Inter", sans-serif;
-    font-weight: 700;
     font-size: 1.6vw;
-    color: #ffffff;
-    text-shadow: 1px 1px 4px #000000;
+    color: #000000;
     margin-bottom: -2vw;
 }
 
@@ -101,21 +95,24 @@
     position: relative;
     height: 5.4vw;
     width: 100%;
-    margin-top: 50px;
+    top: -39.6vw;
     display: flex;
-    background-color: #44728f;
     align-items: center;
     justify-content: center;
-    margin-top: 6vw;
+    margin-bottom: -4vw;
 }
 
 .texto-titulo-atalho {
     color:#ffffff;
+    background-color: rgba(22, 56, 88, 0.5);
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 2.2vw;
     text-shadow: 2px 2px 4px #000000;
-    padding-top: 3vw;
+    padding-top: 1.8vw;
+    padding-bottom: 1.8vw;
+    width: 100%;
+    text-align: center;
 }
 
 a {
@@ -125,25 +122,29 @@ a {
 
 .atalhos-humor {
     position: relative;
-    height: 36vw;
+    height: 40vw;
     width: 100%;
     display: flex;
     gap: 10vw;
-    background-color: #44728f;
+    background-image: url("../img/fundo2.jpg");
+    background-size: 100vw;
     align-items: center;
     justify-content: center;
+    margin-top: 6vw;
 }
 
 .atalho {
     position: relative;
+    margin-top: 6vw;
     width: 22vw;
     height: 28vw;
     border-radius: 1vw;
-    box-shadow: 0px 9px 26px 6px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 9px 26px 6px rgba(0, 0, 0, 0.50);
     display: flex;
     flex-direction: column;
     transition: all .5s ease;
     cursor: pointer;
+    background-color: rgba(22, 56, 88, 0.9);
 }
 
 .atalho:hover {
@@ -199,7 +200,7 @@ html {
     width: 100%;
     height: 100%;
     border-radius: 12vw;
-    background-color: #44728f;
+    background-color: rgba(22, 56, 88, 0.9);
     box-shadow: 1px 1px 2px #000000;
     position: relative;
     display: flex;
@@ -246,7 +247,7 @@ html {
 .rodape {
     width: 100%;
     height: 10vw;
-    background-color: #44728f;
+    background-color: rgba(22, 56, 88);
     right: 0;
     bottom: 0;
     position: relative;
